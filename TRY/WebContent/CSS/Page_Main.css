@@ -1,0 +1,115 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	overflow:auto;
+}
+/* Whole Body */
+body {
+	margin: 0;
+	padding: 0;
+}
+/* Background Image */
+.bg {
+	/* The image used */
+	background-image: url('../Images/Background_img1.jpg');
+	/* Full height */
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Header */
+.imgcontainer {
+  text-align: right;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 25%;
+}
+textarea{
+	vertical-align: top-left;
+	align: left;
+}
+div form table tr{
+	font-size: 18px;
+	color: #ffffff;
+}
+div table tr{
+	font-size: 18px;
+	color: #ffffff;
+}
+div table tr.noBorder td{
+	border: 0;
+}
+div.scrolltable {
+/*  background-color: #d8e8f5; */
+  height: 65%;
+  width: 95%;  
+  overflow-x: auto;
+  overflow-y: auto;
+}
+div#scrolltable {
+/*  background-color: #d8e8f5; */
+  height: 65%;
+  width: 100%;  
+  overflow-x: auto;
+  overflow-y: auto;
+}
+h3 {
+	background-color: light blue;
+	color: Yellow;
+}
+h4 {
+	background-color: light blue;
+	color: Yellow;
+}
+h6 {
+    color: #00ff00;
+	font-weight: bold;
+}
+#message {
+    color: #00ff00;
+	font-weight: bold;
+}
+#tableview {
+  border: 3px solid #ffffff;	
+  color: #ffffff;
+  font-weight: bold;
+}
+th {
+	background-color: #e5e5e5;
+	color: #400000;
+	  padding:10px;
+}
+#tblpopuprow {
+  border: 2px solid yellow;	
+  background-color: light blue;
+  color: #000000;
+  font-weight: bold;
+}
+#linkedit{
+	color: #98052e;
+	font-weight: bold;
+}
+#btnlinkdelete{
+	background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional
+  font-family: arial, sans-serif;
+  input has OS specific font-family
+  color: #069; */
+  text-decoration: underline;
+  cursor: pointer;
+	
+	color: #98052e;
+	font-weight: bold;
+}
+/*Class reference: Required field Asterisk */
+i{
+color: #9b0000;
+}
