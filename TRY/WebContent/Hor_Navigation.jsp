@@ -35,7 +35,20 @@
 		    </div>
 			</li>
 			<!-- Report -->
-			<li class="nav-item"><a class="navbar-brand" href="Report">Report</a>
+			<li class="nav-item dropdown" id="Report"><a class="navbar-brand dropdown-toggle" 
+			href=# data-toggle="dropdown">Report</a>
+			<!-- Dropdown List -->
+			<div class="dropdown-menu">
+				    <a class="dropdown-item" href="Salesrpt">Sales Report</a>	
+				    <a class="dropdown-item" href="Expenserpt">Expense Report</a>
+					<a class="dropdown-item" href="Stockrpt">Stock Report</a>
+					<a class="dropdown-item" href="Empwagesrpt">Employee Wages Report</a>
+					<a class="dropdown-item" href="Custcrdrpt">Customer Credit Report</a>
+					<a class="dropdown-item" href="Owncrdrpt">Owner Credit Report</a>
+					<a class="dropdown-item" href="Purchaserpt">Purchase Report</a>
+					<a class="dropdown-item" href="Profitrpt">Profit Report</a>
+					<a class="dropdown-item" href="Cashtxnrpt">Cash Txn Report</a>
+		    </div>
 			</li>
 		</ul>
 	</nav>

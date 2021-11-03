@@ -8,6 +8,7 @@ function pumpreadentry(params){
 	var tabcontent = $("#pumpreadtable"), hide_flag = false, sprice_init = true, save_disable = false;
     var tbodys = $("<tbody>"), tbodye = $("</tbody>");   
     tabcontent[0].tHead.children[1].hidden = false; //Show Test Qty
+    tabcontent[0].children[0].children[1].children[1].children[0].value = ' '; //Blank out value
     tabcontent[0].children[0].children[1].children[1].children[0].disabled = false;
     tabcontent[0].children[0].children[1].children[1].children[0].value = '';
     tbodys.appendTo(tabcontent);
